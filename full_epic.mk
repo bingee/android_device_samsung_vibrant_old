@@ -120,20 +120,6 @@ PRODUCT_COPY_FILES += \
 	device/samsung/epic/prebuilt/gps/jupiter.xml:system/etc/jupiter.xml
 
 #
-# WIMAX FOR VICTORY!
-#
-PRODUCT_COPY_FILES += \
-	device/samsung/epic/prebuilt/wimax/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
-	device/samsung/epic/prebuilt/wimax/libWiMAXLineTest.so:system/lib/libWiMAXLineTest.so \
-	device/samsung/epic/prebuilt/wimax/libWiMAXNative.so:system/lib/libWiMAXNative.so \
-	device/samsung/epic/prebuilt/wimax/libWiMAXNativeODB.so:system/lib/libWiMAXNativeODB.so \
-	device/samsung/epic/prebuilt/wimax/libwimaxne.so:system/lib/libwimaxne.so \
-	device/samsung/epic/prebuilt/wimax/libwimaxwtm.so:system/lib/libwimaxwtm.so \
-	device/samsung/epic/prebuilt/wimax/wimax_boot.bin:system/etc/wimax_boot.bin \
-	device/samsung/epic/prebuilt/wimax/wimaxfw.bin:system/etc/wimaxfw.bin \
-	device/samsung/epic/prebuilt/wimax/wimaxloader.bin:system/etc/wimaxloader.bin \
-
-#
 # sensor daemon and libs
 #
 #PRODUCT_COPY_FILES += \
@@ -244,8 +230,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_LOCALES := hdpi
 
 $(call inherit-product, build/target/product/full.mk)
-PRODUCT_NAME := full_epic
-PRODUCT_DEVICE := epic
+PRODUCT_NAME := full_vibrant
+PRODUCT_DEVICE := vibrant
 PRODUCT_MODEL := SPH-D700
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
