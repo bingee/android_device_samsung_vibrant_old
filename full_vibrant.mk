@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/hw/libdbus.so:system/bin/libdbus.so \
     device/samsung/vibrant/prebuilt/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
     device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \	
-    device/samsung/vibrant/prebuilt/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so \
+    device/samsung/vibrant/prebuilt/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so 
 
 #
 # gps daemon, libs
@@ -145,7 +145,7 @@ PRODUCT_COPY_FILES += \
 #
 PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/ril/libril.so:system/lib/libril.so \
-    device/samsung/vibrant/prebuilt/ril/libsec-ril40.so:system/lib/libsec-ril40.so \
+    device/samsung/vibrant/prebuilt/ril/libsec-ril.so:system/lib/libsec-ril.so \
     device/samsung/vibrant/prebuilt/ril/libsecril-client.so:system/lib/libsecril-client.so \
     device/samsung/vibrant/prebuilt/ril/drexe:system/bin/drexe \
     device/samsung/vibrant/prebuilt/ril/libreference-ril.so:system/lib/libreference-ril.so \
