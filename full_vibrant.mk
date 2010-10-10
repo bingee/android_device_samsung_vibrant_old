@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/hw/dbus-daemon:system/bin/dbus-daemon \
     device/samsung/vibrant/prebuilt/hw/libdbus.so:system/bin/libdbus.so \
     device/samsung/vibrant/prebuilt/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
-    device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \ 
+    device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
 #    device/samsung/vibrant/prebuilt/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so 
 
 #
