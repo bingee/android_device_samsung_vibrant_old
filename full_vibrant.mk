@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/wifi/libwlservice.so:system/lib/libwlservice.so \
     device/samsung/vibrant/prebuilt/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     device/samsung/vibrant/prebuilt/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    device/samsung/vibrant/prebuilt/wifi/wifi.conf:system/etc/wifi/wifi.conf \
+    device/samsung/vibrant/prebuilt/wifi/wifi.conf:system/etc/wifi.conf \
     device/samsung/vibrant/prebuilt/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     device/samsung/vibrant/prebuilt/wifi/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
     device/samsung/vibrant/prebuilt/wifi/wlservice:system/bin/wlservice \
