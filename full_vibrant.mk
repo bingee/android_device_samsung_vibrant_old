@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
     device/samsung/vibrant/prebuilt/egl/libsrv_init.so:system/lib/libsrv_init.so \
     device/samsung/vibrant/prebuilt/egl/libsrv_um.so:system/lib/libsrv_um.so \
-    device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    device/samsung/vibrant/prebuilt/egl/libglslcompiler.so:system/lib/libglslcompiler.so \
     device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
     device/samsung/vibrant/prebuilt/egl/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
     device/samsung/vibrant/prebuilt/egl/pvrsrvinit:system/bin/pvrsrvinit
