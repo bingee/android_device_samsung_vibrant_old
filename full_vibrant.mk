@@ -60,12 +60,12 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     device/samsung/vibrant/prebuilt/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
     device/samsung/vibrant/prebuilt/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-#   device/samsung/vibrant/prebuilt/egl/libsrv_init.so:system/lib/libsrv_init.so \
-#   device/samsung/vibrant/prebuilt/egl/libsrv_um.so:system/lib/libsrv_um.so \
-#   device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-#   device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-#   device/samsung/vibrant/prebuilt/egl/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-#   device/samsung/vibrant/prebuilt/egl/pvrsrvinit:system/bin/pvrsrvinit
+    device/samsung/vibrant/prebuilt/egl/libsrv_init.so:system/lib/libsrv_init.so \
+    device/samsung/vibrant/prebuilt/egl/libsrv_um.so:system/lib/libsrv_um.so \
+    device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    device/samsung/vibrant/prebuilt/egl/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+    device/samsung/vibrant/prebuilt/egl/pvrsrvinit:system/bin/pvrsrvinit
 
 #
 # Sensors, Lights etc
@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/hw/dbus-daemon:system/bin/dbus-daemon \
     device/samsung/vibrant/prebuilt/hw/libdbus.so:system/bin/libdbus.so \
     device/samsung/vibrant/prebuilt/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
-    device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \	
+    device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \ 
     device/samsung/vibrant/prebuilt/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so 
 
 #
@@ -100,13 +100,13 @@ PRODUCT_COPY_FILES += \
 #
 # sensor daemon and libs
 #
-#PRODUCT_COPY_FILES += \
-#   device/samsung/vibrant/prebuilt/sensor/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
-#   device/samsung/vibrant/prebuilt/sensor/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
-#   device/samsung/vibrant/prebuilt/sensor/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
-#   device/samsung/vibrant/prebuilt/sensor/sensorserver_yamaha:system/bin/sensorserver_yamaha \
-#   device/samsung/vibrant/prebuilt/sensor/sensorcalibutil_yamaha:system/bin/sensorcalibutil_yamaha \
-#   device/samsung/vibrant/prebuilt/sensor/sensorstatutil_yamaha:system/bin/sensorstatutil_yamaha
+PRODUCT_COPY_FILES += \
+    device/samsung/vibrant/prebuilt/sensor/libsensor_yamaha.so:system/lib/libsensor_yamaha.so \
+    device/samsung/vibrant/prebuilt/sensor/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
+    device/samsung/vibrant/prebuilt/sensor/libms3c_yamaha.so:system/lib/libms3c_yamaha.so \
+    device/samsung/vibrant/prebuilt/sensor/sensorserver_yamaha:system/bin/sensorserver_yamaha \
+    device/samsung/vibrant/prebuilt/sensor/sensorcalibutil_yamaha:system/bin/sensorcalibutil_yamaha \
+    device/samsung/vibrant/prebuilt/sensor/sensorstatutil_yamaha:system/bin/sensorstatutil_yamaha
 
 #
 # Keys
@@ -121,14 +121,14 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/keychars/sec_jack.kcm.bin:system/usr/keychars/sec_jack.kcm.bin \
     device/samsung/vibrant/prebuilt/keychars/melfas-touchkey.kcm.bin:system/usr/keychars/melfas-touchkey.kcm.bin \
     device/samsung/vibrant/prebuilt/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-    device/samsung/vibrant/prebuilt/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin  
+    device/samsung/vibrant/prebuilt/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin
 
 
 #
 # Vold
 #
 PRODUCT_COPY_FILES += \
-    device/samsung/vibrant/prebuilt/vold.fstab:system/etc/vold.fstab 
+    device/samsung/vibrant/prebuilt/vold.fstab:system/etc/vold.fstab
 
 #
 # Camera
