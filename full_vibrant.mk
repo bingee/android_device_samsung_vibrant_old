@@ -203,7 +203,7 @@ PRODUCT_LOCALES := hdpi
 
 $(call inherit-product, build/target/product/full.mk)
 PRODUCT_NAME := full_vibrant
-PRODUCT_DEVICE := SGH-T959
+PRODUCT_DEVICE := vibrant
 PRODUCT_MODEL := SGH-T959
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
