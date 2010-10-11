@@ -152,7 +152,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/ril/rilclient-test:system/bin/rilclient-test \
     device/samsung/vibrant/prebuilt/ril/rild:system/bin/rild
 	
-f
+
 #
 # OMX
 #
