@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/egl/libsrv_init.so:system/lib/libsrv_init.so \
     device/samsung/vibrant/prebuilt/egl/libsrv_um.so:system/lib/libsrv_um.so \
     device/samsung/vibrant/prebuilt/egl/libglslcompiler.so:system/lib/libglslcompiler.so \
+    device/samsung/vibrant/prebuilt/egl/libpvr2d.so:system/lib/libpvr2d.so
     device/samsung/vibrant/prebuilt/egl/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
     device/samsung/vibrant/prebuilt/egl/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
     device/samsung/vibrant/prebuilt/egl/pvrsrvinit:system/bin/pvrsrvinit
