@@ -76,8 +76,8 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/hw/dbus.conf:system/etc/dbus.conf \
     device/samsung/vibrant/prebuilt/hw/dbus-daemon:system/bin/dbus-daemon \
     device/samsung/vibrant/prebuilt/hw/libdbus.so:system/bin/libdbus.so \
-    device/samsung/vibrant/prebuilt/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
-    device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so
+    device/samsung/vibrant/prebuilt/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so 
+#    device/samsung/vibrant/prebuilt/hw/gralloc.default.so:system/lib/hw/gralloc.default.so
 #    device/samsung/vibrant/prebuilt/hw/sensors.SGH-T959.so:system/lib/hw/sensors.SGH-T959.so 
 
 #
@@ -152,7 +152,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/vibrant/prebuilt/ril/rilclient-test:system/bin/rilclient-test \
     device/samsung/vibrant/prebuilt/ril/rild:system/bin/rild
 	
-
+f
 #
 # OMX
 #
@@ -194,9 +194,6 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.startheapsize=8m \
     dalvik.vm.heapsize=48m
-#   ro.com.google.clientidbase=android-sprint-us \
-#   ro.cdma.home.operator.numeric=310120 \
-#   ro.cdma.home.operator.alpha=Sprint \
 
 # vibrant uses high-density artwork where available
 PRODUCT_LOCALES := hdpi
